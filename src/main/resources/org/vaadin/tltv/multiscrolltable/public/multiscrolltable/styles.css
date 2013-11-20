@@ -1,0 +1,38 @@
+/** CustomScrollTable */
+
+
+.v-ct-row {
+	height: 25px; /* Default height for rows */
+}
+
+.v-ct-header-group {
+	height: 30px; /* Default height for header group element */
+}
+
+.v-ct-header {
+	height: 30px; /* Default height for header element */
+}
+
+
+.v-ct-col-headers {
+    display: inline-block;
+	border: 1px solid #808080;
+}
+
+.v-ct-content {
+	display: inline-block;
+	border: 1px solid #D3D3D3;
+}
+
+.v-ct-scroll-panel {
+	border: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.v-ct-cell {
+	display: inline-block;
+	height: 25px;
+	overflow: hidden;
+	white-space: nowrap;
+}
